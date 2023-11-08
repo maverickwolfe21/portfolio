@@ -117,3 +117,22 @@ h7 {
   font-size: small;
   font-weight: 500;
 }
+
+.contact div {
+  padding: 10px;
+}
+
+.contact ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  width: 100%;
+
+  color: black;
+
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+  list-style-type: none;
+}

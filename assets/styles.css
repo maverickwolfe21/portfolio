@@ -57,3 +57,63 @@ h7 {
   width: 200px;
   margin-right: 10px;
 }
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  gap: 10px;
+}
+
+#big-box {
+  position: relative;
+  grid-column: span 2;
+  height: 200px;
+  /* background: red; */
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  /* background: red; */
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-container {
+  width: 100%;
+  height: 100%;
+}
+
+.project-image {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mini-header {
+  position: absolute;
+  bottom: 10px;
+
+  background-color: aqua;
+  padding: 12px;
+}
+
+.mini-header h5 {
+  font-size: large;
+}
+.mini-header h6 {
+  margin-top: 5px;
+  font-size: small;
+  font-weight: 500;
+}

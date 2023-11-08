@@ -44,3 +44,16 @@ h7 {
   text-decoration-color: greenyellow;
   color: greenyellow;
 }
+
+.content-container {
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.side-header {
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  width: 200px;
+  margin-right: 10px;
+}
